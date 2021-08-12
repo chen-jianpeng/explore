@@ -8,7 +8,7 @@ module.exports = {
     parser: "babel-eslint",
   },
   globals: {
-    "_join": true
+    // "_join": true
   },
   rules: {
     "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",

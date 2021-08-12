@@ -9,6 +9,7 @@
 <script>
 // @ is an alias to /src
 import HelloWorld from "@/components/HelloWorld.vue";
+import _join from "lodash/join";
 
 export default {
   name: "Home",
